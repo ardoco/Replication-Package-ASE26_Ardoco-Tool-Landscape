@@ -1,0 +1,37 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: ardoco-redis
+    restart: always
+    expose:
+      - "6379"
+    command: ["redis-server", "--bind", "0.0.0.0", "--port", "6379"]
+    networks:
+      - ardoco-network
+
+  rest:
+    build:
+      context: ./rest
+    image: ghcr.io/ardoco/rest:latest
+    container_name: ardoco-rest
+    restart: always
+    ports:
+      - "127.0.0.1:8080:8080"
+    depends_on:
+      - redis
+    networks:
+      - ardoco-network
+
+  traceview:
+    build:
+      context: ./traceview-v2
+    image: ghcr.io/ardoco/traceview:latest
+    container_name: ardoco-traceview
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    networks:
+      - ardoco-network
+
+networks:
+  ardoco-network:
