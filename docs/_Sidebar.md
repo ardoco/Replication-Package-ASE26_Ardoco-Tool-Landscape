@@ -1,0 +1,18 @@
+# Table of Contents
+
+1. [Home](home)
+2. [Quickstart](quickstart)
+3. [Pipeline](pipeline)
+4. [Intermediate Artifacts](intermediate-artifacts)
+    1. [SAM](intermediate-artifacts#software-architecture-models-sam)
+    1. [Code](intermediate-artifacts#code-model)
+5. [Text Preprocessing Microservice](text-preprocessing-microservice)
+6. [Traceability Link Recovery (TLR)](traceability-link-recovery)
+    1. [SWATTR](traceability-link-recovery#swattr)
+    1. [ArDoCode](traceability-link-recovery#ardocode)
+    1. [ArCoTL](traceability-link-recovery#arcotl)
+    1. [TransArC](traceability-link-recovery#transarc)
+    1. [ExArch](traceability-link-recovery#exarch)
+7. [Inconsistency Detection (ID)](inconsistency-detection)
+8. [LiSSA](lissa)
+9. [JSpecify](JSpecify)
