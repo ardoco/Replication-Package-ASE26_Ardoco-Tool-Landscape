@@ -1,0 +1,125 @@
+{
+  "id": "acm000001351jsd",
+  "codeItemRepository": {
+    "repository": {
+      "acm000001337jsd": {
+        "type": "CodeCompilationUnit",
+        "id": "acm000001337jsd",
+        "name": "Cli",
+        "parentId": "acm000001344jsd",
+        "content": [
+          "acm000001348jsd"
+        ],
+        "pathElements": [
+          "edu",
+          "kit",
+          "kastel",
+          "mcse",
+          "ardoco",
+          "codemodelextractor",
+          "cli"
+        ],
+        "extension": "java",
+        "language": "JAVA"
+      },
+      "acm000001338jsd": {
+        "type": "CodePackage",
+        "id": "acm000001338jsd",
+        "name": "edu",
+        "parentId": null,
+        "content": [
+          "acm000001339jsd"
+        ]
+      },
+      "acm000001339jsd": {
+        "type": "CodePackage",
+        "id": "acm000001339jsd",
+        "name": "kit",
+        "parentId": "acm000001338jsd",
+        "content": [
+          "acm000001340jsd"
+        ]
+      },
+      "acm000001340jsd": {
+        "type": "CodePackage",
+        "id": "acm000001340jsd",
+        "name": "kastel",
+        "parentId": "acm000001339jsd",
+        "content": [
+          "acm000001341jsd"
+        ]
+      },
+      "acm000001341jsd": {
+        "type": "CodePackage",
+        "id": "acm000001341jsd",
+        "name": "mcse",
+        "parentId": "acm000001340jsd",
+        "content": [
+          "acm000001342jsd"
+        ]
+      },
+      "acm000001342jsd": {
+        "type": "CodePackage",
+        "id": "acm000001342jsd",
+        "name": "ardoco",
+        "parentId": "acm000001341jsd",
+        "content": [
+          "acm000001343jsd"
+        ]
+      },
+      "acm000001343jsd": {
+        "type": "CodePackage",
+        "id": "acm000001343jsd",
+        "name": "codemodelextractor",
+        "parentId": "acm000001342jsd",
+        "content": [
+          "acm000001344jsd"
+        ]
+      },
+      "acm000001344jsd": {
+        "type": "CodePackage",
+        "id": "acm000001344jsd",
+        "name": "cli",
+        "parentId": "acm000001343jsd",
+        "content": [
+          "acm000001337jsd"
+        ]
+      },
+      "acm000001345jsd": {
+        "type": "ControlElement",
+        "id": "acm000001345jsd",
+        "name": "Cli"
+      },
+      "acm000001346jsd": {
+        "type": "ControlElement",
+        "id": "acm000001346jsd",
+        "name": "main"
+      },
+      "acm000001347jsd": {
+        "type": "ControlElement",
+        "id": "acm000001347jsd",
+        "name": "printUsage"
+      },
+      "acm000001348jsd": {
+        "type": "ClassUnit",
+        "id": "acm000001348jsd",
+        "name": "Cli",
+        "compilationUnitId": "acm000001337jsd",
+        "parentDatatypeId": null,
+        "extendedDataTypesIds": [],
+        "implementedDataTypesIds": [],
+        "datatypeReferencesIds": [
+          "acm000001348jsd"
+        ],
+        "content": [
+          "acm000001345jsd",
+          "acm000001346jsd",
+          "acm000001347jsd"
+        ]
+      }
+    }
+  },
+  "content": [
+    "acm000001338jsd"
+  ]
+}
