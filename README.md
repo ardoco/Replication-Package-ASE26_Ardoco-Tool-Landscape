@@ -7,6 +7,20 @@ It bundles the three presented tools together with the underlying ARDoCo framewo
 
 **Screencast**: https://youtu.be/IOTEPZQ3tVs
 
+## Overview
+
+The names in the paper describe two levels: the **tools** (REST API, TraceView, TraceViz) are how you access the functionality, while the **approaches** are the underlying traceability link recovery (TLR) techniques they make accessible. The table below maps each approach to the artifacts it links and to the tools that expose it.
+
+| Approach                  | Artifacts linked              | REST API | TraceView | TraceViz |
+| ------------------------- | ----------------------------- | :------: | :-------: | :------: |
+| **SWATTR**                | SAD ↔ SAM                     |    ✓     |     ✓     |    —     |
+| **ArCoTL**                | SAM ↔ Code                    |    ✓     |     ✓     |    —     |
+| **ArDoCode**              | SAD ↔ Code                    |    ✓     |     ✓     |    ✓     |
+| **TransArC**              | SAD ↔ SAM ↔ Code (transitive) |    ✓     |     ✓     |    —     |
+| **LiSSA** (LLM/RAG-based) | SAD ↔ Code                    |    —     |     —     |    ✓     |
+
+*SAD = software architecture documentation, SAM = software architecture model, Code = code model (extracted from the source tree; see [Preparing a Code Model](#preparing-a-code-model)).*
+
 ## Structure
 
 * [`rest/`](rest/) — ARDoCo REST API: Spring Boot service exposing all TLR pipelines (SWATTR, ArCoTL, ArDoCode, TransArC) via HTTP
