@@ -16,7 +16,7 @@ The names in the paper describe two levels: the **tools** (REST API, TraceView, 
 | **SWATTR**                | SAD ↔ SAM                     |    ✓     |     ✓     |    —     |
 | **ArCoTL**                | SAM ↔ Code                    |    ✓     |     ✓     |    —     |
 | **ArDoCode**              | SAD ↔ Code                    |    ✓     |     ✓     |    ✓     |
-| **TransArC**              | SAD ↔ SAM ↔ Code (transitive) |    ✓     |     ✓     |    —     |
+| **TransArC**              | SAD ↔ SAM ↔ Code (transitive) |    ✓     |     ✓     |    ✓     |
 | **LiSSA** (LLM/RAG-based) | SAD ↔ Code                    |    —     |     —     |    ✓     |
 
 *SAD = software architecture documentation, SAM = software architecture model, Code = code model (extracted from the source tree; see [Preparing a Code Model](#preparing-a-code-model)).*
